@@ -1,0 +1,137 @@
+
+/*=============
+    common css
+ ============== */
+body{
+    margin:0 auto;
+    font-family: 'Poppins', sans-serif;
+}
+.main{
+    width: 1321px;
+    margin: 50px 100px;
+   
+}
+
+/*==================
+    hero section css
+ =================== */
+.hero-container{
+    background-color: rgb(136, 134, 134);
+    padding: 33px 80px 0px ;
+    margin: 5% 10%;
+    border-radius:5px
+    
+}
+.flex-container{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+}
+.hero-info{
+color: aliceblue;
+}
+.hero-info h1{
+    font-weight: 700;
+    font-size: 70px;
+}
+.link-button{
+    padding: 15px 20px;
+    background-color: rgb(252, 22, 80);
+    border-radius: 5px;
+    border:none;
+    
+}
+.link-button:hover{
+    background-color: rgb(252, 118, 22);
+}
+.link-button a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 16px;
+    font-weight: 600;
+}
+.hero-banner img{
+    width: 90%;
+}
+
+/* match-section style start */
+.grid-container{
+    display: grid;
+    grid-template-columns: 312px 1fr ;
+    grid-column-gap:24px;
+    margin: 5% 10%;
+
+}
+.aside-navigation{
+    width: 312px;
+    height: 312px;
+    background-color: rgb(136, 134, 134);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.side-button{
+    padding:20px;
+    border-radius: 5px;
+    border: none;
+    background-color:aliceblue;
+    margin: 15px;
+}
+.side-button a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+
+}
+.activ{
+    background-color: rgb(252, 22, 80);;
+}
+.activ a{
+    color: aliceblue;
+}
+
+.match-card{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 24px;
+
+}
+.match{
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.match-banner img{
+    width: 100%;
+}
+.match-info{
+    padding-left: 20px;
+}
+
+/* match-section style end */
+
+/* footer-section style start */
+.footer-area{
+    background-color: black;
+    text-align: center;
+    padding: 80px 0;
+}
+.footer-title{
+    color: aliceblue;
+    margin: 50px 0;
+}
+hr{
+    margin: 5% 10%;
+}
+.footer-button{
+    margin: 50px 0;
+}
+.footer-button a{
+    font-size: 16px;
+    text-decoration: none;
+    color: aliceblue;
+    margin-right: 20px;
+    font-weight: 500;
+}
